@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="120.0" y="0.0">Fighter</node>
+    <node x="141.0" y="235.0">BattleResult</node>
+    <node x="330.0" y="235.0">Battle</node>
+    <node x="232.0" y="160.0">Goblin</node>
+    <node x="132.0" y="160.0">Hero</node>
+    <node x="0.0" y="160.0">Skeleton</node>
+    <node x="0.0" y="235.0">Seller</node>
+    <node x="0.0" y="390.0">World</node>
+    <node x="124.0" y="80.0">Person</node>
+    <node x="133.0" y="390.0">Main</node>
+    <node x="0.0" y="315.0">Dealer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Dealer" target="Seller">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Goblin" target="Person">
+      <point x="0.0" y="-15.0" />
+      <point x="280.0" y="135.0" />
+      <point x="204.0" y="135.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="Skeleton" target="Person">
+      <point x="0.0" y="-15.0" />
+      <point x="56.0" y="135.0" />
+      <point x="140.0" y="135.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="Hero" target="Person">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Person" target="Fighter">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="320.0" y="120.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
